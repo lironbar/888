@@ -29,7 +29,6 @@ padding-top: 12px;
   font-weight: bold;
   border: none;
   margin-top: 20px;
-  margin-left: 200px;
 }
 
 .WSOP h1{
@@ -76,17 +75,14 @@ padding-top: 12px;
   color: #fff;
 }
 
-.middleDiv {
-  height: 400px;
-  width: 100%;
-  margin-top: 100px;
-  padding: 0px 200px 0px 200px;
+.col1 {
+  padding-top: 100px;
 }
 
 
 
 .img1 {
-width: 504px;
+  width: 100%;
 z-index: 1;
 }
 
@@ -103,7 +99,23 @@ z-index: 1;
   font-size: 1em;
 }
 
+.textBox2 {
+  background-color: #DAE5E8;
+  height: 100px;
+  width: 100%%;
+  top: 0px;
+  padding: 10px;
+  opacity: 0.8;
+  font-size: 1em;
+}
+
 .img2 {
-  width: 380px;
-  height: 282px;
+  width: 100%;
+
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 900px;
+    }
 }
